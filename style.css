@@ -1,0 +1,255 @@
+body{
+    height: 700px;
+    background-color: rgb(236, 236, 236);
+}
+
+#menu{
+    width: 100%;
+    height: 5%;
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    top: 94.6%;
+    left: 0%;
+}
+
+#menu button{
+    width: 24.7%;
+    height: 100%;
+}
+
+#block_dec{
+    display: block;
+}
+
+#block-op{
+    border: 2px solid black;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#block-op p{
+    margin: 15px;
+    color: black;
+    font-family: Courier; 
+}
+
+.opis{
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+#block-test{
+    display: none;
+    height: 100%;
+}
+
+
+
+#testBth{
+    border: 0;
+    width: 30%;
+    height: 20%;
+    background-color: rgb(0, 202, 0);
+    position: absolute;
+    left: 36%;
+    top: 30%;
+    display: block;
+}
+
+#vop{
+    display: none;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.otvet{
+    height: 120px;
+    position: absolute;
+    top: 30%;
+}
+
+.otvet button{
+    width: 30%;
+    margin: 5px;
+    position: relative;
+    left: 10%;
+}
+
+#reset{
+    border: 0;
+    position: relative;
+    top: 10%;
+    left: 80%;
+    font-size: 25px;
+}
+
+#block-zadach{
+    display: none;
+    height: 100%;
+}
+
+#block-zadach h2{
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+#zadach1{
+    width: 45%;
+    position: absolute;
+    left: 4%;
+}
+
+#zadach1 button{
+    width: 100%;
+}
+
+#zadach2{
+    width: 45%;
+    position: absolute;
+    right: 4%;
+}
+
+#zadach2 button{
+    width: 100%;
+}
+
+#zad1{
+  height: 500px;
+}
+
+
+#block-friend{
+  height: 100%;
+}
+
+#bfH{
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+.myStats{
+    border-bottom: 2px solid black;
+}
+
+#block-friend h4{
+    text-align: center;
+}
+
+.menuFS{
+    width: 100%;
+}
+
+.menuFS button{
+    width: 49.5%;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.menu1{
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 995px) {
+    #menu button{
+        width: 24%;
+    }
+    #op{
+        font-size: 0;
+    }
+    #te{
+        font-size: 0;
+    }
+    #za{
+        font-size: 0;
+    }
+    #dr{
+        font-size: 0;
+    }
+
+    #vop{
+        display: none;
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        border: 1px solid black;
+        background-color: white;
+    }
+    
+    .otvet{
+        height: 120px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+    
+    .otvet button{
+        width: 17%;
+        margin: 5px;
+        position: relative;
+        left: 50%;
+    }
+    
+    #reset{
+        border: 0;
+        position: relative;
+        top: 10%;
+        left: 80%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #vop{
+        display: none;
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        border: 1px solid black;
+        background-color: white;
+    }
+    
+    .otvet{
+        height: 120px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+    
+    .otvet button{
+        width: 25%;
+        margin: 5px;
+        position: relative;
+        left: 5%;
+    }
+    
+    #reset{
+        border: 0;
+        position: relative;
+        top: 10%;
+        left: 60%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1150px) and (min-width:996px) {
+    .otvet button{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .menuFS button{
+        width: 49%;
+    }
+}
