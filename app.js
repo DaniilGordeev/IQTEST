@@ -1,4 +1,10 @@
-
+bridge.send("VKWebAppInit");
+bridge = function(){
+  "type":"VKWebAppInitResult",
+  "data":{
+    "result": true
+  }
+}
 
 document.getElementById('op').onclick = function op (){
     document.getElementById('block_dec').style.display = 'block';
