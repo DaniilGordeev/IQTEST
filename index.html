@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQ</title>
+    <script>import bridge from '@vkontakte/vk-bridge';
+
+// Отправляет событие нативному клиенту
+bridge.send("VKWebAppInit", {});</script>
 </head>
 <body>
     <div id="block_dec">
