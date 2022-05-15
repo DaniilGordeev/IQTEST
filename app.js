@@ -1,4 +1,4 @@
-bridge.send("VKWebAppInit");
+
 document.getElementById('op').onclick = function op (){
     document.getElementById('block_dec').style.display = 'block';
     document.getElementById('block-test').style.display = 'none';
