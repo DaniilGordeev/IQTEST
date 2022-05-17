@@ -208,6 +208,9 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    #block-op{
+        height: 800px;   
+    }
     #vop{
         display: none;
         width: 80%;
