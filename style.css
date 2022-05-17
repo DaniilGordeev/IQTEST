@@ -1,5 +1,5 @@
 body{
-    height: 800px;
+    height: 700px;
     background-color: rgb(236, 236, 236);
 }
 
@@ -20,6 +20,7 @@ body{
 
 #block_dec{
     display: block;
+    height: 100%;
 }
 
 #block-op{
@@ -208,6 +209,10 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    #block_dec{
+    display: block;
+    height: 900px;
+}
     #vop{
         display: none;
         width: 80%;
@@ -249,7 +254,18 @@ body{
 }
 
 @media screen and (max-width: 412px) {
+    #block_dec{
+    display: block;
+    height: 1000px;
+}
     .menuFS button{
         width: 49%;
     }
+}
+
+@media screen and (max-width: 350px) {
+           #block_dec{
+    display: block;
+    height: 1200px;
+}
 }
