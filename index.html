@@ -202,22 +202,11 @@
   // Sends event to client
   vkBridge.send('VKWebAppInit');
             
-            bridge.send("VKWebAppCheckNativeAds", {"ad_format": "interstitial"});
+bridge.send("VKWebAppCheckNativeAds", {"ad_format": "interstitial"});
 
-    
-    document.getElementById('op').onclick = function op(){
     bridge.send("VKWebAppShowNativeAds", {ad_format:"interstitial"})
-    }
-            
-        document.getElementById('te').onclick = function te(){
-    bridge.send("VKWebAppShowNativeAds", {ad_format:"interstitial"})
-    }
-                document.getElementById('za').onclick = function za(){
-    bridge.send("VKWebAppShowNativeAds", {ad_format:"interstitial"})
-    }
-                document.getElementById('dr').onclick = function dr(){
-    bridge.send("VKWebAppShowNativeAds", {ad_format:"interstitial"})
-    }
+    .then(data => console.log(data.result))
+    .catch(error => console.log(error));
 </script>
 </body>
     <script src="app.js"></script>
