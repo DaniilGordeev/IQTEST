@@ -1,5 +1,5 @@
 body{
-    height: 700px;
+    height: 800px;
     background-color: rgb(236, 236, 236);
 }
 
@@ -208,9 +208,6 @@ body{
 }
 
 @media screen and (max-width: 500px) {
-    body{
-        height: 800px;   
-    }
     #vop{
         display: none;
         width: 80%;
