@@ -277,17 +277,12 @@ document.getElementById('o14_3').onclick = function o14_3(){
     document.getElementById('vop14').style.display = 'none';
 }
 
-var rez = 0;
-document.getElementById('rezIQ').innerHTML = rez;
-
 document.getElementById('o15_1').onclick = function o15_1(){
     document.getElementById('rezult').style.display = 'block';
     document.getElementById('vop15').style.display = 'none';
     document.getElementById('naz').style.display = 'none';
     document.getElementById("iq").innerHTML = iq;
     document.getElementById("p_o").innerHTML = p_o;
-    rez = iq;
-    document.getElementById('rezIQ').innerHTML = rez;
     
 }
 document.getElementById('o15_2').onclick = function o15_2(){
@@ -300,8 +295,6 @@ document.getElementById('o15_2').onclick = function o15_2(){
     document.getElementById("iq").innerHTML = iq;
     document.getElementById("p_o").innerHTML = p_o;
     n = Math.floor(Math.random() * 3) + 8;
-    rez = iq;
-    document.getElementById('rezIQ').innerHTML = rez;
 }
 document.getElementById('o15_3').onclick = function o15_3(){
     document.getElementById('rezult').style.display = 'block';
@@ -309,8 +302,6 @@ document.getElementById('o15_3').onclick = function o15_3(){
     document.getElementById('naz').style.display = 'none';
     document.getElementById("iq").innerHTML = iq;
     document.getElementById("p_o").innerHTML = p_o;
-    rez = iq;
-    document.getElementById('rezIQ').innerHTML = rez;
 }
 /*Переключение теста*/
 
@@ -340,14 +331,6 @@ document.getElementById('z1').onclick = function z1(){
     window.location = 'NP/index.html';
 }
 
-document.getElementById('rezfIQ').onclick = function rezfIQ(){
-    document.getElementById('rezfIQ-block').style.display = 'block';
-    document.getElementById('rezfGame-block').style.display = 'none';
-}
 
-document.getElementById('rezfGame').onclick = function rezfGame(){
-    document.getElementById('rezfIQ-block').style.display = 'none';
-    document.getElementById('rezfGame-block').style.display = 'block';
-}
 
 
